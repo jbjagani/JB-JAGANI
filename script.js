@@ -12,3 +12,6 @@ playBtn.addEventListener("click", () => {
 pauseBtn.addEventListener("click", () => {
   bgMusic.pause();
 });
+playBtn.addEventListener("click", () => {
+  bgMusic.play();
+});
