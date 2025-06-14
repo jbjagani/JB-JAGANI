@@ -251,3 +251,18 @@ header {
 
 .floating-icon {
   animation: pulseGlow 2.5s infinite ease-in-out;
+  @media (max-width: 600px) {
+  header h1 {
+    font-size: 32px;
+  }
+
+  header p {
+    font-size: 16px;
+    margin-top: -5px;
+  }
+
+  hr {
+    width: 120px;
+  }
+}
+
