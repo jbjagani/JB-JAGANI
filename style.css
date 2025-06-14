@@ -251,28 +251,3 @@ header {
 
 .floating-icon {
   animation: pulseGlow 2.5s infinite ease-in-out;
-}
-#music-controls {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 9999;
-}
-
-#music-controls button {
-  background: #00ffe0;
-  color: black;
-  border: none;
-  font-size: 24px;
-  margin: 5px;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 0 15px #00ffe0;
-  transition: transform 0.2s ease-in-out;
-}
-
-#music-controls button:hover {
-  transform: scale(1.2);
-}
-
