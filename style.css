@@ -72,37 +72,6 @@ header {
   max-width: 600px;
   color: #ccffcc;
 }
-
-.background-music-icons {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 10;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: linear-gradient(to right, #00ffcc, #66ff99);
-  animation: pulse 2s infinite ease-in-out;
-}
-
-.icon:nth-child(2) {
-  animation-delay: 0.4s;
-}
-.icon:nth-child(3) {
-  animation-delay: 0.8s;
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); opacity: 0.6; }
-  50% { transform: scale(1.5); opacity: 1; }
-  100% { transform: scale(1); opacity: 0.6; }
-}
 .profile-container {
   display: flex;
   justify-content: center;
