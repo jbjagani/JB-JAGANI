@@ -192,7 +192,12 @@ header {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
-
+.icon.wave {
+  background-image: url('https://img.icons8.com/ios-filled/50/sound.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
 .icon:hover {
   transform: scale(1.15) rotate(10deg);
   box-shadow: 0 0 30px rgba(0, 255, 200, 0.6);
