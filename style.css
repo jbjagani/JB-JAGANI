@@ -149,3 +149,48 @@ header {
   background-image: url('https://img.icons8.com/ios-filled/50/sound-waves.png');
   background-size: 60%;
 }
+.floating-icons {
+  position: fixed;
+  top: 40%;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 999;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #00ffe0, #00635a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: bounce 1.5s infinite alternate ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transform: scale(1.15) rotate(10deg);
+  box-shadow: 0 0 30px rgba(0, 255, 200, 0.6);
+}
+
+.icon img {
+  width: 24px;
+  height: 24px;
+  filter: invert(1);
+}
+
+/* Staggered animation delays */
+.icon:nth-child(1) { animation-delay: 0s; }
+.icon:nth-child(2) { animation-delay: 0.3s; }
+.icon:nth-child(3) { animation-delay: 0.6s; }
+.icon:nth-child(4) { animation-delay: 0.9s; }
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-12px); }
+}
