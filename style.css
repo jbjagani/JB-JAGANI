@@ -169,14 +169,6 @@ header {
 .icon.mic {
   background-image: url('https://img.icons8.com/ios-filled/50/microphone.png');
   background-size: 60%;
-}
-.icon.wave {
-  background-image: url('https://img.icons8.com/ios-filled/50/sound.png'); /* example fallback */
-  background-size: 60%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-}
 .floating-icons {
   position: fixed;
   top: 40%;
